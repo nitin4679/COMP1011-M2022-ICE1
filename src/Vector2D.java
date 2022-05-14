@@ -65,7 +65,7 @@ public class Vector2D {
 
 
 
-
+// Public Methods
 
     /**
      * This method adds a Vector2D to a Vector2D
@@ -89,4 +89,9 @@ public class Vector2D {
 
     }
 
+    // Overridden Methods
+    @Override
+    public String toString() {
+        return ("("+ getX() + "," + getY() + ")");
+    }
 }
