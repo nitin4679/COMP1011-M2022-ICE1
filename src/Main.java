@@ -1,3 +1,5 @@
+import jdk.jshell.execution.Util;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,11 +9,11 @@ public class Main {
 
 
         System.out.println("Point1: " + point1.toString());
-
         System.out.println("Point2: "+ point2.toString());
-
         System.out.println("Point3: "+ point3.toString());
 
+        float distance = Utility.Distance(point2, point3);
+        System.out.println("Distance between point 2 and point 3 is: "+ distance );
 
     }
 }
